@@ -5,7 +5,7 @@ import os
 import sys
 import glob
 
-download_folder = "C:\\Users\\segovelo\\Downloads"
+download_folder = "<YOUR_LOCAL_PATH>\\Downloads"
 if len(sys.argv) > 1:
     file_name = sys.argv[1]
     full_path_file = os.path.join(download_folder, file_name)
